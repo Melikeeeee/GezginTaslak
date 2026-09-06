@@ -1,0 +1,29 @@
+{
+  "name": "@gezgin/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@gezgin/types": "workspace:*",
+    "@gezgin/validation": "workspace:*",
+    "next": "14.2.24",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@gezgin/config-eslint": "workspace:*",
+    "@gezgin/config-typescript": "workspace:*",
+    "@types/node": "^22.13.4",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.24",
+    "typescript": "^5.7.3"
+  }
+}

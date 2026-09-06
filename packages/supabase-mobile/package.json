@@ -1,0 +1,22 @@
+{
+  "name": "@gezgin/supabase-mobile",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint \"src/**/*.ts\""
+  },
+  "dependencies": {
+    "@gezgin/types": "workspace:*",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@supabase/supabase-js": "^2.49.1"
+  },
+  "devDependencies": {
+    "@gezgin/config-eslint": "workspace:*",
+    "@gezgin/config-typescript": "workspace:*",
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3"
+  }
+}

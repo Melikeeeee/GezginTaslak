@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Gezgin",
+    "slug": "gezgin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "gezgin",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gezgin.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.gezgin.app"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": ["expo-router"]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "@gezgin/config-eslint",
+  "version": "0.1.0",
+  "private": true,
+  "main": "base.js",
+  "files": [
+    "base.js"
+  ]
+}
