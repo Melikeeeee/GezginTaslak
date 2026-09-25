@@ -2,6 +2,8 @@ import { createClient, SupabaseClient } from "@supabase/supabase-js";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import type { Database } from "@gezgin/types";
 
+declare const process: { env: Record<string, string | undefined> };
+
 let mobileClient: SupabaseClient<Database> | null = null;
 
 export function getMobileSupabaseClient(): SupabaseClient<Database> {
